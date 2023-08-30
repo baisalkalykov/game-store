@@ -1,0 +1,132 @@
+{
+  "game":[
+    {
+      "id":1,
+      "image": "shape.png",
+      "prise": "16 400",
+       "name": "Shape",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":2,
+      "image": "skay.png",
+      "prise": "16 400",
+       "name": "Skay",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":3,
+      "image": "minecraft.png",
+      "prise": "16 400",
+       "name": "Minecraft",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":4,
+      "image": "hike.png",
+      "prise": "16 400",
+       "name": "Hike",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":5,
+      "image": "flover.png",
+      "prise": "16 400",
+       "name": "Flover",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":6,
+      "image": "hohokum.png",
+      "prise": "16 400",
+       "name": "Hohokum",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":7,
+      "image": "ewitne.png",
+      "prise": "16 400",
+       "name": "Ewitne",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":8,
+      "image": "eastshade.png",
+      "prise": "16 400",
+       "name": "Eastshade",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":9,
+      "image": "littlebig.png",
+      "prise": "16 400",
+       "name": "Littlebig",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":10,
+      "image": "unarvel.png",
+      "prise": "16 400",
+       "name": "Unarvel",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":11,
+      "image": "seasons.png",
+      "prise": "16 400",
+       "name": "Seasons",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":12,
+      "image": "yonder.png",
+      "prise": "16 400",
+       "name": "Yonder",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":13,
+      "image": "mine2.png",
+      "prise": "16 400",
+       "name": "Minecraft",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":14,
+      "image": "witness.png",
+      "prise": "16 400",
+       "name": "Witness",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":15,
+      "image": "ori.png",
+      "prise": "16 400",
+       "name": "Ori",
+       "genre":"Action",
+       "platform":"Steam"
+    },
+    {
+      "id":16,
+      "image": "unravel2.png",
+      "prise": "16 400",
+       "name": "Unarvel",
+       "genre":"Action",
+       "platform":"Steam"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header{
+    background: #06030F;
+    padding: 30px;
+    &__container{
+       max-width:1200px;
+        margin: 0 auto;
+    }
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__top__h1{
+        color: white;
+    }
+    &__top__p{
+        color: #FFF;
+       font: 600 16px/130% 'Manrope';
+       cursor: pointer;
+    }
+    &__top__ul{
+        display: flex;
+        gap: 32px;
+        cursor: pointer;
+    }
+    &__li{
+        color: #FFF;
+       font: 600 16px/130% 'Manrope';
+    }
+    &__top__rigth{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    &__center{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 21px;
+    }
+    &__center__p{
+        color: #FFF;
+        font: 800 32px/90% 'Manrope';
+    }
+    &__center__line{
+        display: flex;
+        flex-direction: column;
+    }
+    &__center__line1{
+        width: 25px;
+        height: 3px;
+        background: #FFF;
+        margin-bottom: 5px;
+    }
+    &__center__line2{
+        width: 15px;
+        height: 3px;
+        background: #FFF;
+    }
+    &__center__input{
+        width: 578px;
+        height: 56px;
+        border-radius: 15px;
+        background: rgba(196, 196, 196, 0.05);
+        border: none;
+        padding-left: 30px;
+        color: white;
+        font: 400 16px/130% 'Manrope';
+    }
+    &__center__input::placeholder{
+        color: #9B9A9F;
+        font: 400 16px/130% 'Manrope';
+    }
+    &__center__p2{
+        color: #77BE1D;
+        font: 500 16px/130% 'Manrope';
+    }
+    &__center__icons{
+        display: flex;
+        gap: 20px;
+    }
+    &__icon4{
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 1026px) {
+     .header{
+        &__container{
+            max-width: 850px;
+        }
+        &__center__input{
+        width: 250px;
+        }
+        &__top{
+            display: none;
+        }
+     }
+ }
+@media (max-width: 767.98px) {  }
+@media (max-width: 575.98px) {  }
+

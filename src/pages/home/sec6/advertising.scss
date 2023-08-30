@@ -1,0 +1,93 @@
+.advertising{
+    background: #06030F;
+    &__container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    &__p{
+        color: #FFF;
+        font: 600 32px/130% 'Manrope';
+        padding-top: 69px;
+    }
+    &__colla{
+        width: 1200px;
+    }
+    &__cards{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    &__card{
+        width: 400px;
+    }
+    &__card img{
+        width: 100%;
+    }
+    &__card__p{
+        color: #FFF;
+        font: 600 20px/130% 'Manrope';  
+    }
+    &__card__p1{
+        color: #FFF;
+        font: 400 18px/130% 'Manrope'; 
+        padding-top: 10px; 
+    }
+    &__card__p2{
+        color: #63656A;
+        font: 400 16px/130% 'Manrope'; 
+        padding-top: 20px; 
+    }
+    &__box{
+        width: 1200px;
+        height: 76px;
+        border-radius: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &__box__p{
+        color: #366EDC;
+        font: 400 18px/130% 'Manrope'; 
+        cursor: pointer;
+    }
+}
+
+@media(max-width:1184px){
+    .advertising{
+    &__cards{
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: 50px;
+           }
+    &__colla{
+            max-width: 900px;
+        }
+    &__box{
+            max-width: 700px;
+        }
+               
+    }
+    
+}
+@media (max-width: 1117px) {
+    .advertising{
+        &__container{
+        max-width: 1050px;
+        margin-left: 40px;
+        }
+       
+        
+    }
+}
+@media (max-width: 951.98px) {
+    .advertising{
+        &__colla{
+                max-width: 500px;
+            }       
+        }
+ }
+@media (max-width: 767.98px) {  }
+@media (max-width: 575.98px) {  }

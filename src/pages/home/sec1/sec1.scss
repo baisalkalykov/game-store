@@ -1,0 +1,90 @@
+.sec1{
+    background: #06030F;
+    &__container{
+        max-width:1200px;
+        color: white;
+        margin: 0 auto;
+    }
+    &__card{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+    &__card__logo{
+        position: absolute;
+        top: 22%;
+        left: 8%;
+        background: transparent;
+    }
+    &__card__title{
+        position: absolute;
+        top: 33%;
+        left: 8%;
+        background: transparent;
+        font: 400 24px/160% 'Manrope';
+    }
+    &__card__prise{
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        position: absolute;
+        top: 53%;
+        left: 8%;
+        background: transparent;
+    }
+    &__card__prise__h2{
+        font: 800 32px/130% 'Manrope';
+        background: transparent;
+    }
+    &__card__prise__p1{
+        color: #77BE1D;
+        font: 800 20px/130% 'Manrope';
+        background: transparent;
+    }
+    &__card__prise__p2{
+        font: 600 20px/130% 'Manrope';
+        background: transparent;
+        color: rgba(255, 255, 255, 0.30);
+    }
+    &__card__btns{
+        position: absolute;
+        top: 63%;
+        left: 8%;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__card__btn1{
+        padding: 23px 40px;
+        border-radius: 15px;
+        border: none;
+        background: white;
+        color: black;
+        cursor: pointer;
+    }
+    &__card__btn2{
+        padding: 23px 40px;
+        border: none;
+        border-radius: 15px;
+       background: rgba(255, 255, 255, 0.05);
+       color: white;
+       cursor: pointer;
+    }
+}
+
+
+@media (max-width: 1106px) {
+    .sec1{
+         max-width: 1050px;
+        
+    }
+}
+@media (max-width: 991.98px) {
+
+ }
+@media (max-width: 767.98px) {  }
+@media (max-width: 575.98px) {  }

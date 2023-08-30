@@ -1,0 +1,103 @@
+.minCards{
+    background: #06030F;
+    &__container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    &__cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__card{
+        width: 570px;
+        height: 330px;
+        border-radius: 15px;
+        background: linear-gradient(159deg, #1DBE53 0%, #ACE238 100%);
+        position: relative;
+        padding-bottom:10px ;
+    }
+    &__card:nth-child(2){
+        background: linear-gradient(159deg, #FF3D23 0%, #FDA828 100%);
+    }
+    &__card__p{
+      padding: 40px 40px 20px;
+      color: #FFF;
+       font: 800 36px/120% 'Manrope';
+    }
+    &__card__prise{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 40px;
+    }
+    &__card__prise_p{
+        font: 800 24px/130% 'Manrope';
+        color: #FFF;
+    }
+    &__card__prise_p:nth-child(2){
+        color: #FFE817;
+        font: 800 20px/130% 'Manrope';
+    }
+    &__card__prise_p:nth-child(3){
+        color: rgba(255, 255, 255, 0.50);
+        font: 600 20px/130% 'Manrope';
+    }
+    &__card__btn{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 82px 40px 40px;
+    }
+    &__card__btn1{
+        padding: 18px 40px 22px 40px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.10);
+        border: none;
+        color: #FFF;
+        cursor: pointer;
+    }
+    &__card__btn1:nth-child(2){
+        background: transparent;
+    }
+    &__card__min1{
+        position: absolute;
+        right: -3%;
+        bottom: 10%;
+    }
+    &__card__min2{
+        width: 342px;
+        height: 403px;
+        flex-shrink: 0;
+        position: absolute;
+        right: -25%;
+        bottom: 8%;
+    }
+}
+@media(max-width:1184px){
+    .minCards{
+        &__cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-left: 50px;
+           }
+    }
+}
+
+
+@media (max-width: 1106px) {
+    .minCards{
+        &__container{
+        max-width: 1050px;
+        margin-left: 40px;
+        }
+       
+        
+    }
+}
+@media (max-width: 991.98px) {
+
+ }
+@media (max-width: 767.98px) {  }
+@media (max-width: 575.98px) {  }

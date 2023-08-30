@@ -1,0 +1,120 @@
+.footer{
+    background: #06030F;
+    &__container{
+        width: 1200px;
+        padding-top: 150px;
+        margin: 0 auto;
+    }
+    &__img{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+    }
+    &__ul{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__li__act{
+        font: 600 22px/130% 'Manrope';
+        color: #FFF;
+        cursor: pointer;
+    }
+    &__li{
+        font: 400 19px/130% 'Manrope';
+        color: #CDCDCF;
+        cursor: pointer;
+    }
+    &__bank{
+        display: flex;
+        align-items: center;
+        gap: 36px;
+    }
+    &__bank__title{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__bank__one{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    &__bank__p{
+        font: 400 13px/130% 'Manrope';
+        color: #FFF;
+    }
+    &__bank__p2{
+        font: 700 13px/130% 'Manrope';
+        color: #FFF;
+    }
+    &__text{
+        padding-top: 41px;
+        font: 400 13px/130% 'Manrope';
+        color: #63686D;
+    }
+    &__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 57px;
+        padding-bottom: 150px;
+        cursor: pointer;
+    }
+    &__bottom__p1{
+        font: 400 18px/130% 'Manrope';
+        color: #4277FF;
+    }
+    &__bottom__p2{
+        font: 400 13px/130% 'Manrope';
+        color: #63686D;
+    }
+}
+
+@media(max-width:1184px){
+    .footer{
+    &__container{
+        max-width: 1000px;
+    }    
+    &__img{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       margin-left: 50px; 
+    }    
+    &__title{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 50px;    
+    }
+    }
+    
+}
+@media (max-width: 1117px) {
+
+}
+@media (max-width: 951.98px) {
+ 
+ }
+@media (max-width: 899.98px) { 
+    .footer{   
+        &__img{
+           display: grid;
+           grid-template-columns: repeat(2,1fr);
+           margin-left: 50px; 
+        }    
+        &__title{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-left: 50px;    
+        }
+        &__bottom{
+            width: 700px;
+        }
+        }
+ }
+@media (max-width: 575.98px) {  }

@@ -1,0 +1,90 @@
+.oneGame{
+    background: #06040F;
+    &__container{
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        background: url(../image/onegame-car.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+         color: white;
+    }
+    &__box{
+        margin-left: 20px;
+        padding-top: 60px;
+        display: flex;
+        gap: 50px;
+    }
+    &__img{
+        width: 300px;
+        height: 400px;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+    }
+    &__title__h2{
+        font: 400 40px/130% ' Manrope';
+        color: #FFF;
+    }
+    &__title__p{
+        font: 400 14px/130% ' Manrope';
+        color: #FFF;
+        padding-top: 20px;
+    }
+    &__title__h4{
+        font: 500 24px/130% 'Manrope';
+        padding-top: 20px;
+        .span1{
+            color: #77BE1D;
+            font: 500 18px/130% 'Manrope';
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .span2{
+            color: rgba(255, 255, 255, 0.20);
+            font: 400 18px/130% 'Manrope';
+        }
+    }
+    &__btns{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-top: 20px;
+    }
+   &__btn1{
+        width: 110px;
+        height: 50px;
+        border-radius: 15px;
+        background: #77BE1D;
+        color: #FFF;
+        border: none;
+        cursor: pointer;
+   }
+   &__btn2{
+        width: 110px;
+        height: 50px;
+        border-radius: 15px;
+        border: 2px solid rgba(255, 255, 255, 0.10);
+        background: transparent;
+        color: #FFF;
+        cursor: pointer;
+   }
+   &__btns__i{
+    cursor: pointer;
+   }
+   &__uls{
+    display: flex;
+    gap: 84px;
+    padding-top: 40px;
+   }
+   &__ul__li__one{
+    font: 400 18px/130% ' Manrope';
+        color: #FFF;
+   }
+   &__ul__li__two{
+    font: 600 20px/130% ' Manrope';
+        color: #FFF;
+   }
+
+}
