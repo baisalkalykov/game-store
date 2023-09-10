@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom'
 import {animateScroll} from "react-scroll";
 import top from '../../layout/icons/Наверх.png'
 const Game = () => {
-    const{game}= useContext(CustomContext);
-    
+    const{game,getBasket,basket,setLocal, deleteBasket}= useContext(CustomContext);
     const toTop = () => {
         animateScroll.scrollToTop({
             delay: 0,
@@ -41,7 +40,8 @@ const Game = () => {
                                 <p className='card__top4__p'>Топ 4</p>
                                 <img src={top4} />
                                 </div>
-                                <button className='game__card__btn'>В корзину</button>
+                                {basket.find (item=>el.id===item.id)?  <button className='game__card__btn__del' onClick={()=> deleteBasket(el.id)}>удалить</button> : <button  onClick={()=>getBasket(el)}  type='button'  className='game__card__btn' >В корзину</button>
+                                    }    
                         </div>
                 )}
             </div>

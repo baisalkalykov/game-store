@@ -8,7 +8,7 @@ const OneGame = () => {
   const {id}=useParams()
   const [one,oneGame]= useState([])
     useEffect (()=>{
-        axios(` http://localhost:3000/game/${id}`)
+        axios(` http://localhost:8080/game/${id}`)
         .then(({data})=>oneGame(data))
     },[])
   return (

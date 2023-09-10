@@ -1,0 +1,24 @@
+.goods{
+    background: #06030F;
+    h1{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    &__container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    &__input{
+        width: 648px;
+        height: 66px;
+        border-radius: 15px;
+        background: rgba(196, 196, 196, 0.05);
+        border: none;
+    color: wheat;
+    }
+    &__input::placeholder{
+
+    }
+}

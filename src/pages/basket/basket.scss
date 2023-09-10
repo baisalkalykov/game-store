@@ -1,0 +1,94 @@
+.basket{
+    background: #06030F;
+    &__container{
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 60px;
+    }
+   
+    &__card{
+        width: 600px;
+        height: 300px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        border-top: 1px solid #13101B;
+    }
+    &__card__img{
+        width: 200px;
+        height: 240px;
+    }
+    
+    &__card__h4{
+        font: 500 24px/130% 'Manrope';
+        margin-top: 20px;
+        color: white;
+        .span1{
+            color: #77BE1D;
+            font: 500 18px/130% 'Manrope';
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .span2{
+            color: rgba(255, 255, 255, 0.20);
+            font: 400 18px/130% 'Manrope';
+        }
+    }
+    &__card__h3{
+        font: 400 18px/130% 'Manrope';
+        margin-bottom: 11px;
+    }
+    &__count{
+        width: 280px;
+        height: 350px;
+        border-radius: 30px;
+        border: 2px solid rgba(255, 255, 255, 0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        right: 0%;
+    }
+    &__count__btn{
+     width: 180px;
+     height: 63px;
+     border-radius: 15px;
+     background: rgba(119, 190, 29, 0.10);
+     color: #77BE1D;
+     border: none;
+     font: 400 18px/130% 'Manrope';
+     cursor: pointer;
+    }
+    &__count__p{
+        color: white;
+        font: 700 20px/130% 'Manrope';
+    }
+    &__count__h2{
+        font: 700 30px/130% ' Manrope';
+        color: white;
+        margin-top: 20px;
+    }
+    &__count__checkbox{
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    &__count__checkbox__p{
+        color: rgba(255, 255, 255, 0.30);
+        font: 500 16px/130% ' Manrope';
+        .checkbox__p__span{
+            color: #4885FC;
+        }
+    }
+}

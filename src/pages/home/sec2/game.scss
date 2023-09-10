@@ -40,6 +40,9 @@
    &__card:hover>.game__card__btn{
     display: block;
    }
+   &__card:hover>.game__card__btn__del{
+    display: block;
+   }
    &__card__img{
     width: 300px;
     height: 400px;
@@ -86,6 +89,20 @@
     cursor: pointer;
     display: none;
    }
+   &__card__btn__del{
+    width: 260px;
+    height: 63px;
+    border-radius: 12px;
+    background: #be1d1d;
+    backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    cursor: pointer;
+    display: none;
+   }
    .totop{
     position: fixed;
     right: 20px;
@@ -93,6 +110,9 @@
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
+  }
+  &__link{
+    text-decoration: none;
   }
 }
 @media(max-width:1184px){

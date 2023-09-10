@@ -88,7 +88,19 @@
     &__icon4{
         cursor: pointer;
     }
-
+    &__basket__count{
+        position: relative;
+    }
+    &__basket__count__h2{
+        color: #77BE1D;
+        padding: 4px 10px ;
+        border-radius: 16px;
+        background: rgba(21, 15, 38, 0.35);
+        position: absolute;
+        top: -25px;
+        right: -15px;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 1026px) {

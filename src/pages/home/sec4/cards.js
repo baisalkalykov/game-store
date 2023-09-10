@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './cards.scss'
 import {animateScroll} from "react-scroll";
 const Cards = () => {
-    const{game}= useContext(CustomContext);
+  const{game,getBasket,basket,setLocal, deleteBasket}= useContext(CustomContext);
 
     const toTop = () => {
       animateScroll.scrollToTop({
@@ -38,7 +38,8 @@ const Cards = () => {
                            <label for="happy" class="check__p">Аккаунт Steam</label>
                             </div>
                             </div> 
-                                <button className='cards__box__card__btn'>В корзину</button>
+                            {basket.find (item=>el.id===item.id)?  <button className='cards__box__card__btn__del' onClick={()=> deleteBasket(el.id)}>удалить</button> : <button  onClick={()=>getBasket(el)}  type='button'  className='cards__box__card__btn' >В корзину</button>
+                                    }    
               </div>
               )}
             </div>

@@ -34,6 +34,9 @@
     &__box__card:hover>.cards__box__card__btn{
         display: block;
     }
+    &__box__card:hover>.cards__box__card__btn__del{
+        display: block;
+    }
     &__box__card__img{
         width: 300px;
     }
@@ -69,6 +72,20 @@
         height: 63px;
         border-radius: 12px;
         background: #77BE1D;
+        backdrop-filter: blur(10px);
+        color: white;
+        border: none;
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        cursor: pointer;
+        display: none;
+    }
+    &__box__card__btn__del{
+        width: 260px;
+        height: 63px;
+        border-radius: 12px;
+        background: #be1d1d;
         backdrop-filter: blur(10px);
         color: white;
         border: none;

@@ -2,22 +2,39 @@ import { createContext,useEffect,useState } from "react";
 import axios from "axios";
 export const CustomContext=createContext()
 export const Context=(props)=>{
+
   const [game,setGame]= useState([])
   const [basket,setBasket]= useState([])
-  const addBasket=(game)=>{
-    setBasket(prev=>[...prev],{game})
+
+  useEffect(() => {
+    const item = JSON.parse(localStorage.getItem('basket'));
+    if (item) {
+     setBasket(item);
+    }
+  }, []);
+
+  const saveBasket = (dataBasket) => {
+    setBasket(dataBasket)
+    localStorage.setItem('basket',JSON.stringify(dataBasket))
   }
-    useEffect (()=>{
-        axios(' http://localhost:3000/game')
-        .then(({data})=>setGame(data))
-    },[])
-    
+   
+    let getBasket = (item)=>{
+      const newBasket = [...basket,item]
+      saveBasket(newBasket)
+    }
+  
+    const deleteBasket = (id) => {
+      const filteredBasket = basket.filter(item => item.id !== id)
+      saveBasket(filteredBasket)
+    };
+
     const value={
       game,
       setGame,
       basket,
       setBasket,
-      
+      getBasket,
+      deleteBasket
 
     }
     

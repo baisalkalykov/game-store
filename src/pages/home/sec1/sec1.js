@@ -2,7 +2,8 @@ import React from 'react'
 import car from '../../image/car.png'
 import nes from '../../image/nes-logo.svg'
 import './sec1.scss'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import {Autoplay} from 'swiper/modules'
 import 'swiper/css'; 
 const Sec1 = () => {
   return (
@@ -10,10 +11,13 @@ const Sec1 = () => {
        <div className='sec1__container container'>
        <Swiper
                     loop={true}
-                    autoplay-disable-on-interaction={false}
-                    autoplay-delay={2500}
-                    slides-per-view={1.5}
-                    space-between={15}
+                    autoplay={{
+                      delay:2500,
+                    disableOnInteraction:false
+                    }}
+                    modules={[Autoplay]}
+                   
+              
                     >
                       <SwiperSlide>
          <div className='sec1__card'>
