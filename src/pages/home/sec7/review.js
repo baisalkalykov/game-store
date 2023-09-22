@@ -8,7 +8,7 @@ const Review = () => {
         <div className='review__container container'>
             <div className='review__title'>
              <p className='review__title__p'>Отзывы</p>   
-             <button className='review__title__btn'>Оставить отзыв</button>
+           
             </div>
             <div className='review__cards'>
               <div className='review__card__one'>

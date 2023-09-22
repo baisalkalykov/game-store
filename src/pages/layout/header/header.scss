@@ -7,14 +7,18 @@
 .header{
     background: #06030F;
     padding: 30px;
+    
     &__container{
        max-width:1200px;
         margin: 0 auto;
+        padding-bottom: 50px;
     }
     &__top{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        gap: 30px;
+        padding-left: 150px;
+        // justify-content: space-between;
     }
     &__top__h1{
         color: white;
@@ -32,6 +36,10 @@
     &__li{
         color: #FFF;
        font: 600 16px/130% 'Manrope';
+    }
+    &__li:hover{
+        transform: scale(1.05);
+        color: #3657CB;
     }
     &__top__rigth{
         display: flex;
@@ -100,6 +108,23 @@
         top: -25px;
         right: -15px;
         cursor: pointer;
+    }
+    &__link{
+     text-decoration: none;
+    }
+
+    &__btn{
+       width: 93px;
+       height: 38px;
+       border-radius: 5px;
+       background: none;
+       color: white;
+       border: none;
+       cursor: pointer;
+    }
+    &__btn:hover{
+        background: #3657CB;
+        box-shadow: 0px 0px 5px 0px rgba(72, 113, 255, 0.80);
     }
 }
 

@@ -1,0 +1,49 @@
+.garant{
+    background: #06030F;
+    &__container{
+        width: 1200px;
+        padding-top: 150px;
+        margin: 0 auto;
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    &__title__h1{
+        color: #FFF;
+        font: 800 64px/130% 'Manrope'
+    }
+    &__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-top: 50px;
+    }
+    &__card{
+        width: 398.01px;
+        height: 376.021px;
+        border-radius: 17px;
+        background: #090613;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__card__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        color: white;
+        padding-top: 63px;
+        padding-bottom: 36px;
+    }
+    &__card__h2{
+        font: 700 22px/130% 'Manrope';
+    }
+    &__card__p{
+        font: 400 15px/130% 'Manrope';
+        color: #FFF;
+    }
+}

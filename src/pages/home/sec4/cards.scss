@@ -31,6 +31,10 @@
         padding-bottom: 20px;
         position: relative;
     }
+    &__box__card:hover{
+        transform: scale(1.03);
+        box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+    }
     &__box__card:hover>.cards__box__card__btn{
         display: block;
     }
@@ -39,6 +43,7 @@
     }
     &__box__card__img{
         width: 300px;
+        height: 400px;
     }
     &__box__card__h4{
         font: 500 24px/130% 'Manrope';
@@ -109,6 +114,9 @@
         color: #366EDC;
         font: 600 18px/130% 'Manrope';
         cursor: pointer;
+    }
+    &__link{
+        text-decoration: none;
     }
    
 }

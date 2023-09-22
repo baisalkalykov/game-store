@@ -1,0 +1,87 @@
+.goods{
+    background: #06030F;
+    h1{
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    &__container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    &__input{
+        width: 648px;
+        height: 66px;
+        border-radius: 15px;
+        background: rgba(196, 196, 196, 0.05);
+        border: none;
+        color: white;
+        margin-left: 130px;
+        padding-left: 30px;
+    }
+    &__input::placeholder{
+       padding: 22px 30px;
+    }
+    &__box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 30px;
+        padding-top: 90px;
+    }
+    &__card{
+        width: 350px;
+        height: 530px;
+        border-radius: 15px;
+        border: 1px solid rgba(192, 183, 232, 0.33);
+        position: relative;
+    }
+    &__card:hover>.goods__btn{
+        display: block;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    &__card__img{
+        width: 300px;
+        height: 400px;
+    }
+    &__card__title{
+        padding-top: 15px;
+        padding-left: 40px;
+    }
+    &__card__h3{
+        color: white;
+        font: 500 18px/130% 'Manrope';
+    }
+   &__btn{
+    width: 260px;
+    height: 63px;
+    border-radius: 12px;
+    background: #77BE1D;
+    backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    cursor: pointer;
+   }
+   &__btn__del{
+    width: 260px;
+    height: 63px;
+    border-radius: 12px;
+    background: #be1d1d;
+    backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    cursor: pointer;
+   }
+}

@@ -5,6 +5,14 @@ export const Context=(props)=>{
 
   const [game,setGame]= useState([])
   const [basket,setBasket]= useState([])
+  const [user,setUser]= useState({
+    email:''
+  })
+  useEffect(()=>{
+    if(localStorage.getItem('user')!==null){
+       setUser(JSON.parse(localStorage.getItem('user')))
+    }
+  },[])
 
   useEffect(() => {
     const item = JSON.parse(localStorage.getItem('basket'));
@@ -34,7 +42,9 @@ export const Context=(props)=>{
       basket,
       setBasket,
       getBasket,
-      deleteBasket
+      deleteBasket,
+      user,
+      setUser
 
     }
     

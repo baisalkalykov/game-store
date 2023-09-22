@@ -1,0 +1,75 @@
+.contacts{
+  background: #06040F;
+  &__container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  &__title{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    fill: #161F19;
+    
+  }
+  &__title__h1{
+    color: #FFF;
+    font: 800 64px/130% 'Manrope'
+  }
+  &__title__img{
+    width: 706px;
+    height: 469px;
+  }
+  &__box{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+  }
+  &__tex{
+    width: 620px;
+   height: 174px;
+   border-radius: 20px;
+   border: 1px solid #13101B;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 90px;
+  }
+  &__tex__des{
+    display: flex;
+    flex-direction: column;
+  }
+  &__tex__des__p{
+    font: 500 20px/130% 'Manrope';
+    color: rgba(255, 255, 255, 0.70);
+  }
+  &__tex__des__h2{
+    font: 600 38px/130% 'Manrope';
+    color: #FFF;
+  }
+  &__tex__icon{
+    cursor: pointer;
+  }
+  &__div__des{
+    display: flex;
+    flex-direction: column;
+    padding-top: 67px;
+  }
+  &__div__des__h1{
+    font: 600 48px/130% 'Manrope';
+    color: #FFF;
+    }
+    &__des__text__h3{
+        font: 800 28px/130% 'Manrope';
+        color: #FFF;
+        padding-top: 30px;
+    }
+    &__des__text__p{
+        font: 800 19px/130% 'Manrope';
+        color: #FFF;
+        padding-top: 20px;
+    }
+}
+    

@@ -1,132 +1,155 @@
 {
-  "game":[
+  "game": [
     {
-      "id":1,
+      "id": 1,
       "image": "shape.png",
       "prise": "13600",
-       "name": "Shape",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Shape",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":2,
+      "id": 2,
       "image": "skay.png",
       "prise": "13600",
-       "name": "Skay",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Skay",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":3,
-      "image": "minecraft.png",
-      "prise": "13600",
-       "name": "Minecraft",
-       "genre":"Action",
-       "platform":"Steam"
-    },
-    {
-      "id":4,
+      "id": 4,
       "image": "hike.png",
       "prise": "13600",
-       "name": "Hike",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Hike",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":5,
+      "id": 5,
       "image": "flover.png",
       "prise": "13600",
-       "name": "Flover",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Flover",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":6,
+      "id": 6,
       "image": "hohokum.png",
       "prise": "13600",
-       "name": "Hohokum",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Hohokum",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":7,
+      "id": 7,
       "image": "ewitne.png",
       "prise": "13600",
-       "name": "Ewitne",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Ewitne",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":8,
+      "id": 8,
       "image": "eastshade.png",
       "prise": "13600",
-       "name": "Eastshade",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Eastshade",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":9,
+      "id": 9,
       "image": "littlebig.png",
       "prise": "13600",
-       "name": "Littlebig",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Littlebig",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":10,
+      "id": 10,
       "image": "unarvel.png",
       "prise": "13600",
-       "name": "Unarvel",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Unarvel",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":11,
+      "id": 11,
       "image": "seasons.png",
       "prise": "13600",
-       "name": "Seasons",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Seasons",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":12,
+      "id": 12,
       "image": "yonder.png",
       "prise": "13600",
-       "name": "Yonder",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Yonder",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":13,
+      "id": 13,
       "image": "mine2.png",
       "prise": "13600",
-       "name": "Minecraft",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Minecraft",
+      "genre": "Action",
+      "platform": "Steam"
     },
     {
-      "id":14,
-      "image": "witness.png",
-      "prise": "13600",
-       "name": "Witness",
-       "genre":"Action",
-       "platform":"Steam"
-    },
-    {
-      "id":15,
+      "id": 15,
       "image": "ori.png",
       "prise": "13600",
-       "name": "Ori",
-       "genre":"Action",
-       "platform":"Steam"
+      "name": "Ori",
+      "genre": "Action",
+      "platform": "Steam"
+    }
+  ],
+  "users": [
+    {
+      "email": "11@mail.ru",
+      "password": "$2a$10$mObGruBMQz400ZxaG/JMu.FDutATwE6KLGUYwt6VRWYwD697n/XHy",
+      "id": 1
     },
     {
-      "id":16,
-      "image": "unravel2.png",
-      "prise": "13600",
-       "name": "Unarvel",
-       "genre":"Action",
-       "platform":"Steam"
+      "email": "222@mail.ru",
+      "password": "$2a$10$SY9C5TaemgPm1f0RXE4am.IIj4wWjxdOx823F0f7kkvZnx0hJhvSa",
+      "id": 2
+    },
+    {
+      "email": "11111@mail.ru",
+      "password": "$2a$10$eHs5.CSoZS/YWM1Leu07Y.fzE/AyXdVPdZb5e76owLPC5pZblB9he",
+      "id": 3
+    },
+    {
+      "email": "234@mail.ru",
+      "password": "$2a$10$1AthMuLARvlo3Qg123D4AOdEufGv7G2Z5ruXshx1jdO1wL.rkyZ1u",
+      "id": 4
+    },
+    {
+      "email": "666@mail.ru",
+      "password": "$2a$10$qKGHEWoHLoUPnhPEl9F1k.xJjsUCAC67L5nCSrXyDg8kO0zOPOGsi",
+      "id": 5
+    },
+    {
+      "email": "1234522@mail.ru",
+      "password": "$2a$10$LOpXHneQIzyBUU2sPukcBOlvuud5M5i.gbqS9y4ZdzG2J20qj/12q",
+      "id": 6
+    },
+    {
+      "email": "alibek@mail.ru",
+      "password": "$2a$10$ncTYZM/cWUg2TE8V.Pa9.OZT.3QW.VleH63OtCLKddDrkZzUT6ATC",
+      "id": 7
+    },
+    {
+      "email": "baisal@mail.ru",
+      "password": "$2a$10$5Srf0BlCe1bYnHHs94brieWKXmSSDZziMn0vllW6VB8IRJLxHKz9O",
+      "id": 8
+    }
+  ],
+  "messages": [
+    {
+      "title": "qwerty"
     }
   ]
 }

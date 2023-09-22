@@ -55,7 +55,7 @@
         justify-content: center;
         flex-direction: column;
         position: absolute;
-        top: 10%;
+        top: 5%;
         right: 0%;
     }
     &__count__btn{
@@ -91,4 +91,61 @@
             color: #4885FC;
         }
     }
+    &__card__p{
+        font: 400 18px/130% 'Manrope';
+        color: rgba(255, 255, 255, 0.30);
+        .card__p__span{
+            color: white;
+        }
+    }
+    &__price{
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+
+    }
+    &__price__card{
+        width: 436px;
+        height: 230px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+       position: relative;
+
+    }
+    &__price__card__checkbox{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: white;
+        margin: 30px;
+
+    }
+    &__price__card__check{
+        width: 24px;
+        height: 24px;
+        stroke-width: 1px;
+        background: rgba(255, 255, 255, 0.10) ;
+        border-radius: 50px !important;
+    }
+    &__price__card__icon{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__btn{
+        width: 160px;
+        height: 63px;
+        border-radius: 12px;
+        background: #be1d1d;
+        backdrop-filter: blur(10px);
+        color: white;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
 }

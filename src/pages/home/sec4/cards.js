@@ -15,13 +15,7 @@ const Cards = () => {
   return (
     <section className='cards'>
         <div className='cards__container container'>
-            <ul className='cards__ul'>
-                <li className='cards__ul__li'>Новинки</li>
-                <li className='cards__ul__li'>Аккаунты</li>
-                <li className='cards__ul__li'>Ключи</li>
-                <li className='cards__ul__li'>Активация</li>
-                <li className='cards__ul__li'>Прокачка</li>
-            </ul>
+           
             <div className='cards__box'>
               {game.slice(0,12).map((el)=>
               <div className='cards__box__card'>
@@ -44,7 +38,10 @@ const Cards = () => {
               )}
             </div>
             <div className='cards__katolog'>
+              <Link to='/goods' className='cards__link'>
               <p className='cards__katolog__p'>Перейти в каталог</p>
+              </Link>
+              
             </div>
         </div>
     </section>
