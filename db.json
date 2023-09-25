@@ -97,6 +97,14 @@
       "platform": "Steam"
     },
     {
+      "id": 14,
+      "image": "witness.png",
+      "prise": "13600",
+      "name": "Witness",
+      "genre": "Action",
+      "platform": "Steam"
+    },
+    {
       "id": 15,
       "image": "ori.png",
       "prise": "13600",
@@ -107,44 +115,14 @@
   ],
   "users": [
     {
-      "email": "11@mail.ru",
-      "password": "$2a$10$mObGruBMQz400ZxaG/JMu.FDutATwE6KLGUYwt6VRWYwD697n/XHy",
+      "email": "baisalkalykov69@gmail.com",
+      "password": "$2a$10$tggTw8NBUBYm7AdcFHQZFOD813VdxnRJO5N4UHBCMIDocbECSzKom",
       "id": 1
     },
     {
-      "email": "222@mail.ru",
-      "password": "$2a$10$SY9C5TaemgPm1f0RXE4am.IIj4wWjxdOx823F0f7kkvZnx0hJhvSa",
+      "email": "admin@mail.ru",
+      "password": "$2a$10$qNYPxSJNlzXZ0jD/e/Cbx.ToVnlTwtWPpvDAlG6MtoXd/2Ke8KEJC",
       "id": 2
-    },
-    {
-      "email": "11111@mail.ru",
-      "password": "$2a$10$eHs5.CSoZS/YWM1Leu07Y.fzE/AyXdVPdZb5e76owLPC5pZblB9he",
-      "id": 3
-    },
-    {
-      "email": "234@mail.ru",
-      "password": "$2a$10$1AthMuLARvlo3Qg123D4AOdEufGv7G2Z5ruXshx1jdO1wL.rkyZ1u",
-      "id": 4
-    },
-    {
-      "email": "666@mail.ru",
-      "password": "$2a$10$qKGHEWoHLoUPnhPEl9F1k.xJjsUCAC67L5nCSrXyDg8kO0zOPOGsi",
-      "id": 5
-    },
-    {
-      "email": "1234522@mail.ru",
-      "password": "$2a$10$LOpXHneQIzyBUU2sPukcBOlvuud5M5i.gbqS9y4ZdzG2J20qj/12q",
-      "id": 6
-    },
-    {
-      "email": "alibek@mail.ru",
-      "password": "$2a$10$ncTYZM/cWUg2TE8V.Pa9.OZT.3QW.VleH63OtCLKddDrkZzUT6ATC",
-      "id": 7
-    },
-    {
-      "email": "baisal@mail.ru",
-      "password": "$2a$10$5Srf0BlCe1bYnHHs94brieWKXmSSDZziMn0vllW6VB8IRJLxHKz9O",
-      "id": 8
     }
   ],
   "messages": [

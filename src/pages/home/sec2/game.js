@@ -29,12 +29,7 @@ const Game = () => {
                         <div className='game__card__title'>
                         <h4 className='game__card__h4'>{el.prise} <span className='span1'>-15%</span> <span className='span2'>16 400 P</span> </h4>
                         <h3 className='game__card__h3'>{el.name}</h3>
-                        <div class="game__card__checkbox">
-                            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes"/>
-                            <label for="happy" class="check__p">Буст</label>
-                           <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes"/>
-                           <label for="happy" class="check__p">Origin</label>
-                            </div>
+                       
                             </div> 
                             <div className='card__top4'>
                                 <p className='card__top4__p'>Топ 4</p>

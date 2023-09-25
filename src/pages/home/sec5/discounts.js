@@ -18,7 +18,7 @@ const Discounts = () => {
         <div className='discounts__container container'>
             <p className='discounts__p'>Акции и скидки  <span className='span1'>%</span></p>
             <div className='discounts__cards'>
-              {game.slice(12,16).map((el)=>
+              {game.slice(12,14).map((el)=>
               <div className='discounts__card'>
                 <Link onClick={()=>toTop()} to={`onegame/${el.id}`}>
                 <img src={el.image} className='discounts__card__img'/>

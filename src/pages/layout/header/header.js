@@ -8,6 +8,7 @@ import {animateScroll} from "react-scroll";
 
 import './header.scss'
 const Header = () => {
+  const [open, setOpen] = useState(false)
   const {basket,user,setUser} = useContext(CustomContext)
 
   const closeUser = ()=>{
@@ -15,7 +16,15 @@ setUser({
   email:'',
 
 })
+
+
 localStorage.removeItem('user')
+  }
+  const userIsNotAuthorized=()=>{
+    setUser({
+      email:'',
+    })
+  
   }
   const navigate = useNavigate()
   const toTop = () => {
@@ -28,7 +37,6 @@ localStorage.removeItem('user')
   <section className='header'>
     <div className='header__container container'>
         <div className='header__top'>
-            <h1 className='header__top__h1'>RU/$</h1>
             <Link to ='/home'  className='header__link'>
             <p className='header__li'>Главная</p>
             </Link>
@@ -45,24 +53,44 @@ localStorage.removeItem('user')
              <Link to='/contacts'className='header__link'>
              <li className='header__li'> Контакты</li>
              </Link>
-             <li className='header__li'>О нас</li>
             </ul>
          <div className='header__basket__count'>
-         <img src={icon4}  className='header__icon4' onClick={()=>
-          navigate('/basket')
-        }/>
+         <img
+      src={icon4}
+      className='header__icon4'
+      onClick={() => {
+        if(user.email === '') {
+          setOpen(true)
+        }
+        navigate('/basket')
+      }}
+    />
+        
+           
+  <>
+  
+    {userIsNotAuthorized && ( 
+      <div className='header__box' style={{ display: open ? 'block' : 'none' }}>
+        <h2 className='header__box__h2'>Пройдите авторизацию</h2>
+        <button className='header__box__btn' onClick={()=>navigate('/register')}>авторизация</button>
+      </div>
+    )}
+  </>
+    
+
      <h2 className='header__basket__count__h2'>{basket.length}</h2>
         </div>
        
           {
             user.email==='' ?
             <button onClick={()=>navigate('/login')} className='header__btn'>register</button>
-             : <button onClick={closeUser}>выйти</button>
+             : <button onClick={closeUser} className='header__btn2'>выйти</button>
           }
       
         
 
         </div>
+       
       
     </div>
     

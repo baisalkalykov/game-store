@@ -25,12 +25,7 @@ const Cards = () => {
                 <div className='game__card__title'>
                         <h4 className='cards__box__card__h4'>{el.prise} <span className='span1'>-15%</span> <span className='span2'>16 400 P</span> </h4>
                         <h3 className='cards__box__card__h3'>{el.name}</h3>
-                        <div class="cards__box__card__checkbox">
-                            <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes"/>
-                            <label for="happy" class="check__p">Ключ</label>
-                           <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes"/>
-                           <label for="happy" class="check__p">Аккаунт Steam</label>
-                            </div>
+                       
                             </div> 
                             {basket.find (item=>el.id===item.id)?  <button className='cards__box__card__btn__del' onClick={()=> deleteBasket(el.id)}>удалить</button> : <button  onClick={()=>getBasket(el)}  type='button'  className='cards__box__card__btn' >В корзину</button>
                                     }    

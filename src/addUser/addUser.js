@@ -76,8 +76,11 @@ const AddUser = () => {
               
               />
             </div>
+            <div className='addUser__btns'>
+            <button onClick={()=>navigate('/login')} className='addUser__btn2' >есть аккаунт</button>
             <button type="submit" className='addUser__btn'>Зарегистрироваться</button>
-            <button onClick={()=>navigate('/login')}>есть акк</button>
+            </div>
+            
           </form>
           </div>
           <img src={img} className='AddUser__img'/>

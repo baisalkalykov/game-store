@@ -12,6 +12,9 @@ import './basket.scss'
 const Basket = () => {
 const{basket}= useContext(CustomContext)
 const [checked, setChecked] = useState(true);
+const [click, setClick] = useState(true);
+const [check, setCheck] = useState(true);
+const [ch, setCh] = useState(true);
 console.log(basket.reduce((acc,rec)=>{
   return acc + +rec.prise
 
@@ -51,7 +54,7 @@ const{ deleteBasket}= useContext(CustomContext);
             <div className='basket__price'>
               <div className='basket__price__card'>
                 <div className='basket__price__card__checkbox'>
-                <input type="checkbox" checked={checked} onChange={() => setChecked(!checked)} className='basket__price__card__check' />
+                <input type="checkbox" checked={ch} onChange={() => setCh(!ch)} className='basket__price__card__check' />
                 <h2 className='basket__price__card__h3'>Эллектронные кошельки</h2>
                 </div>
                 <div className='basket__price__card__icon'>
@@ -64,7 +67,7 @@ const{ deleteBasket}= useContext(CustomContext);
           
               <div className='basket__price__card'>
                 <div className='basket__price__card__checkbox'>
-                <input type="checkbox" checked={checked} onChange={() => setChecked(!checked)} className='basket__price__card__check' />
+                <input type="checkbox" checked={click} onChange={() => setClick(!click)} className='basket__price__card__check' />
                 <h2 className='basket__price__card__h3'>Банковские карты</h2>
                 </div>
                 <div className='basket__price__card__icon'>
@@ -78,7 +81,7 @@ const{ deleteBasket}= useContext(CustomContext);
             
               <div className='basket__price__card'>
                 <div className='basket__price__card__checkbox'>
-                <input type="checkbox" checked={checked} onChange={() => setChecked(!checked)} className='basket__price__card__check' />
+                <input type="checkbox" checked={check} onChange={() => setCheck(!check)} className='basket__price__card__check' />
                 <h2 className='basket__price__card__h3'>Криптовалюта</h2>
                 </div>
                 <div className='basket__price__card__icon'>
